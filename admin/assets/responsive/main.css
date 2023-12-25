@@ -1,0 +1,132 @@
+@media only screen and (max-width: 425px) {
+  .sidebar {
+    z-index: 1000;
+  }
+  .card-content {
+    grid-template-columns: auto !important;
+  }
+  #ProjectView {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-widget {
+    height: 124px;
+    /* padding: 0 24px; */
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    /* display: flex; */
+    background: var(--bs-white-pink);
+    position: relative;
+    box-shadow: 1px 0px 4px 4px #5451d4;
+    justify-content: center;
+    gap: 16px;
+  }
+  .project-status .card {
+    width: 19rem !important;
+  }
+  .nav-search {
+    width: 57% !important;
+  }
+  footer {
+    flex-direction: column;
+    gap: 12px;
+    padding: 1rem 0.2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    width: 220px;
+}
+main {
+  width: calc(100% - 220px);
+  left: 220px;
+}
+  .nav-widget {
+    height: 220px;
+    /* padding: 0 24px; */
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    /* display: flex; */
+    background: var(--bs-white-pink);
+    position: relative;
+    box-shadow: 1px 0px 4px 4px #5451d4;
+    justify-content: center;
+    gap: 16px;
+  }
+  .nav-content {
+    display: grid;
+    grid-template-columns: auto;
+}
+  .sidebar {
+    z-index: 1000;
+  }
+  .card-content {
+    grid-template-columns: auto !important;
+  }
+  #ProjectView {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-status .card {
+    width: 22rem !important;
+  }
+  .nav-search {
+    width: 100% !important;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+.searchBtn-top {
+  left: 83%;
+}
+  footer {
+    flex-direction: column;
+    gap: 12px;
+    padding: 1rem 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    z-index: 1000;
+  }
+  .card-content {
+    grid-template-columns: auto auto !important;
+  }
+  /* #ProjectView {
+          display: flex;
+          flex-direction: column;
+      }
+      .project-status .card{
+          width: 44rem !important;
+      } */
+  .nav-search {
+    width: 60% !important;
+  }
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    padding: 0.5rem !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .card-content {
+    grid-template-columns: auto auto !important;
+  }
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    padding: 0.5rem 1.5rem !important;
+  }
+  .project-status .card {
+    width: 24rem !important;
+  }
+}

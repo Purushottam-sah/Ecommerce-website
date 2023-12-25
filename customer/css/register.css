@@ -1,0 +1,94 @@
+.register-form, .login-form{
+    margin: 5rem 20rem;
+}
+.form-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.form-top span:nth-child(1){
+    font-size: 18px;
+    font-weight: 600;
+    color: darkorchid;
+}
+form.registration-user{
+    background: var(--bs-white);
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+}
+form.registration-user .form-label{
+    font-size: 14px !important;
+}
+form.registration-user .form-control{
+    background: var(--bs-gray-300) !important;
+    font-size: 14px !important;
+}
+.checkSlogan{
+    color: var(--bs-gray-700);
+    font-size: 12px !important;
+}
+.register-submit-btn {
+    padding: 0.3rem 4rem !important;
+    width: 100%;
+    margin-top: -96px;
+}
+span.policyRegister a, .registeredUser a, span.alreadyMember a{
+    color: darkcyan !important;
+}
+span.policyRegister{
+    font-size: 14px;
+}
+.readpolicy{
+    margin-top: -66px;
+}
+.form-footer-option {
+    flex-direction: column;
+    margin-top: -101px;
+}
+span.otherloginoption {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+span.optionLogin{
+font-size: 14px;
+text-align: center;
+}
+/* .googleLoginbtn{
+    margin-top: -80px;
+} */
+.facebookLogin, .googleLogin{
+padding: 0.2rem 3rem !important;
+display: flex;
+align-items: center;
+gap: 8px;
+}
+.facebookLogin i.bx, .googleLogin i.bx {
+    font-size: 35px;
+}
+
+
+/* Login form */
+.login-user{
+    background: var(--bs-white);
+    padding: 1.4rem 1rem;
+}
+.form-footer-option-login {
+    flex-direction: column;
+    /* margin-top: -22px; */
+}
+button.btn.btn-primary.register-sign-btn {
+    width: 100%;
+    padding: 0.7rem;
+}
+span.form-reset-password a{
+    color: darkcyan;
+    font-size: 13px;
+}
+span.form-reset-password.float-right {
+    float: right;
+}
+
+
+/* Login form */

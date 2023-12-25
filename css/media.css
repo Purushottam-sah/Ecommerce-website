@@ -1,0 +1,146 @@
+@media screen and (max-width: 500px) {
+  /* Header */
+  .header-search {
+    width: 100%;
+    margin: 20px 0;
+  }
+  ul.login-box {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+span.multi-lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+.cartSection {
+    display: flex;
+    justify-content: center;
+}
+  /* Header */
+
+  /* wrapper */
+  .top-bar-nav {
+    gap: 14px;
+  }
+
+  .wrapper {
+    padding: 0.4rem 0.6rem;
+  }
+  .saveApps {
+    text-align: center !important;
+  }
+  span.downloadApps {
+    float: none !important;
+    margin: 10px 0;
+  }
+  /* wrapper */
+
+  /* Body WIdget */
+
+  .body-widget {
+    padding: 0.4rem 1rem;
+    grid-template-columns: auto;
+    display: block;
+  }
+
+  .left-category-list {
+    width: 100%;
+  }
+
+  .category-section {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .category-section li {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .rightslider {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .image-slider img {
+    width: 100%;
+  }
+
+  .slider img {
+    height: auto;
+  }
+  .slider {
+    width: 100%;
+  }
+
+  .image-slider {
+    position: relative;
+  }
+  /* Body WIdget */
+
+  /* Flat Product Offer */
+  .container-fluid.text-center img {
+    width: 100%;
+  }
+  /* Flat Product Offer */
+
+  /* Features Products */
+  .featuresProducts,
+  .shopCategories {
+    margin: 0.4rem 1rem;
+  }
+  ul.feature-product-list {
+    display: grid !important;
+    grid-template-columns: auto auto;
+  }
+  ul.feature-product-list li img {
+    width: 50%;
+  }
+  .latestProducts,
+  .company-brand,
+  .justforyou {
+    margin: 0.4rem 1rem;
+  }
+  /* Features Products */
+
+  /* Latest Products */
+  .latestprduct-title span,
+  .brand-name span,
+  .category-title span {
+    font-size: 14px;
+  }
+  .showMoreBtn button.btn.btn-success {
+    font-size: 10px;
+  }
+
+  .card {
+    width: 100%;
+  }
+  .latest-product-img img {
+    width: 100%;
+    height: auto;
+  }
+  /* Latest Products */
+
+  /* SHop categories */
+  .category-items img {
+    width: 80%;
+    height: auto;
+  }
+  .categories-list {
+    padding: 0.4rem 0;
+    grid-template-columns: auto auto;
+  }
+  .category-items span {
+    font-size: 12px;
+  }
+  .category-items {
+    width: 100%;
+  }
+  /* SHop categories */
+}

@@ -1,0 +1,45 @@
+.category-content{
+    margin: 2rem;
+    justify-content: space-between;
+}
+.categories-Title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories-Title span {
+    font-size: 20px;
+    color: var(--bs-indigo);
+    font-weight: 600;
+}
+
+form.category-form{
+    background: var(--bs-white);
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+form input.form-control, .ck.ck-editor__main>.ck-editor__editable:not(.ck-focused) {
+    background: var(--bs-gray-300) !important;
+}
+
+.errorMsg{
+    background: red;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+}
+.successMsg{
+    background: green;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+span.optionalchoice{
+    color: var(--bs-gray-500);
+    font-size: 14px;
+}
